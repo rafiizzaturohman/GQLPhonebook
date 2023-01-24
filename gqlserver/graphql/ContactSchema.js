@@ -24,7 +24,7 @@ var root = {
         return Contact.find()
     },
     getrContact: (id) => {
-        return Contact.findById()
+        return Contact.findById(id)
     }
 };
 
