@@ -4,11 +4,11 @@ import UserList from '../../containers/UserList';
 export default function UserBox() {
     return (
         <div>
-            <div className='grid gap-8 my-28 mx-20 md:grid-cols-none xl:grid-cols-2'>
+            <div className='grid gap-8 md:my-28 md:mx-20 sm:mx-10 sm:my-8 md:grid-cols-none xl:grid-cols-2'>
                 {/* CARD FORM START */}
                 <div>
                     <div className='shadow-2xl shadow-slate-300 bg-white/80 rounded-lg'>
-                        <div className='container py-16 px-24 space-y-10'>
+                        <div className='container xl:py-16 xl:px-24 md:py-8 md:px-10 sm:px-10 sm:py-8 space-y-10'>
                             <UserForm />
                         </div>
                     </div>
